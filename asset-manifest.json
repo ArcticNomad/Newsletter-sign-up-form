@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Newsletter-sign-up-form/static/css/main.ae712a89.css",
+    "main.js": "/Newsletter-sign-up-form/static/js/main.9e03364d.js",
+    "static/js/453.b9888433.chunk.js": "/Newsletter-sign-up-form/static/js/453.b9888433.chunk.js",
+    "static/media/Roboto-Regular.ttf": "/Newsletter-sign-up-form/static/media/Roboto-Regular.160d7a6ac26376e5e977.ttf",
+    "static/media/Roboto-Bold.ttf": "/Newsletter-sign-up-form/static/media/Roboto-Bold.35eab922fdbe4b5324d4.ttf",
+    "index.html": "/Newsletter-sign-up-form/index.html",
+    "main.ae712a89.css.map": "/Newsletter-sign-up-form/static/css/main.ae712a89.css.map",
+    "main.9e03364d.js.map": "/Newsletter-sign-up-form/static/js/main.9e03364d.js.map",
+    "453.b9888433.chunk.js.map": "/Newsletter-sign-up-form/static/js/453.b9888433.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae712a89.css",
+    "static/js/main.9e03364d.js"
+  ]
+}
