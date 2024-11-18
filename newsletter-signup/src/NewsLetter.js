@@ -9,7 +9,7 @@ export default function NewsLetter() {
                     <div className="message-2">Join 60,000+ Product Managers Receiving Monthly Updates On :</div>
                     <div className="promo">
                         <ul className="promoLists">
-                            <li className="promo-item-1"><img src="/src/images/icon-success.svg" id="listImg" /> Product Discovery and Building What Matters</li>
+                            <li className="promo-item-1"><img src="/src/images/icon-success.svg" id="listImg"  alt="jhhj"/> Product Discovery and Building What Matters</li>
                             <li className="promo-item-1"><img src="/src/images/icon-success.svg" id="listImg" /> Ensuring Updates are a Success</li>
                             <li className="promo-item-1"><img src="/src/images/icon-success.svg" id="listImg" /> And Much More!</li>
                         </ul>
@@ -29,7 +29,7 @@ export default function NewsLetter() {
             </div>
 
             <div className="image">
-                <img src="./illustration-sign-up-desktop.svg" alt="Sign-Up Illustration"/>
+                <img src="/src/illustration-sign-up-desktop.svg" alt="Sign-Up Illustration"/>
 
             </div>
         </article>
