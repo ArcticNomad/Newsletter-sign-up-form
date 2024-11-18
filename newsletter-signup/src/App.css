@@ -38,36 +38,48 @@ body{
 .insideMain
 {
   align-self: flex-end;
-  width: 80%;
+  width: 78%;
   height: 100%;
 }
 .message-1{
 
-  font-size: 50px;
+  font-size: 2.3vw;
   font-family: "Roboto Bold";
   font-weight: bold;
 }
 .message-2
 {
-  font-size: 15px;
+  font-size: 1.5vh;
+  width: 35vh;
 }
 .promo{
   display: flex;
-
+  height: 15vh;
 }
 .promoLists {
+
+  height: 10vh;
   list-style: none; /* Remove default bullets */
   align-self: flex-start;
   padding: 0;
 }
 
 .promoLists li {
-  background-image: url("icon-list.svg");
-  background-repeat: no-repeat;
-  background-position: left;
-  padding-left: 30px;
-  height: 21px;
-  margin : 12px 12px 12px 0px;
+
+  display: flex;
+  gap: 1rem;
+  height: 2vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-right: 1rem;
+  font-size: 1.5vh;
+
+
+}
+#listImg
+{
+  height: 2vh;
+  width: 2vh;
 
 }
 #label
@@ -78,7 +90,7 @@ body{
 #email
 {
   width: 80%;
-  height: 50px;
+  height: 4.5vh;
   border: gray solid 1px;
   border-radius:7px;
   padding: 0px;
@@ -88,7 +100,7 @@ body{
 #submit
 {
   width: 80%;
-  height: 50px;
+  height: 4.5vh;
   border: gray solid 1px;
   border-radius:7px;
   font-family: "Roboto Bold";
@@ -107,5 +119,6 @@ body{
 {
   align-self: center;
   width: 85%;
+  height: 120%;
 
 }
