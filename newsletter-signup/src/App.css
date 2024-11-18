@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("./Roboto-Bold.ttf");
+}
+body{
+  font-family: "Roboto";
+  background-color: #3d3d61;
+}
+.App {
+  background-color: #3d3d61;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NewsLetter{
+  background-color: seashell;
+  height: 60vh;
+  width: 55vw;
+  display: flex;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.main-section
+{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.insideMain
+{
+  align-self: flex-end;
+  width: 80%;
+  height: 100%;
+}
+.message-1{
+
+  font-size: 50px;
+  font-family: "Roboto Bold";
+  font-weight: bold;
+}
+.message-2
+{
+  font-size: 15px;
+}
+.promo{
+  display: flex;
+
+}
+.promoLists {
+  list-style: none; /* Remove default bullets */
+  align-self: flex-start;
+  padding: 0;
+}
+
+.promoLists li {
+  background-image: url("icon-list.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 30px;
+  height: 21px;
+  margin : 12px 12px 12px 0px;
+
+}
+#label
+{
+  font-size: 14px;
+  font-weight: bold;
+}
+#email
+{
+  width: 80%;
+  height: 50px;
+  border: gray solid 1px;
+  border-radius:7px;
+  padding: 0px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+#submit
+{
+  width: 80%;
+  height: 50px;
+  border: gray solid 1px;
+  border-radius:7px;
+  font-family: "Roboto Bold";
+  background-color: #363657;
+  color: white;
+}
+
+.image{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img
+{
+  align-self: center;
+  width: 85%;
+
+}
